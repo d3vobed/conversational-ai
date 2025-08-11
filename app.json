@@ -1,0 +1,106 @@
+{
+  "expo": {
+    "name": "Conversational AI",
+    "slug": "conversationalai",
+    "owner": "obx03",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icons/bouquet.png",
+    "scheme": "conversationalai",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#000",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icons/bouquet.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000"
+    },
+    "ios": {
+      "appleTeamId": "QQ57RJ5UTD",
+      "bundleIdentifier": "app.bacon.conversationalai",
+      "icon": {
+        "light": "./assets/icons/bouquet.png",
+        "dark": "./assets/icons/floral.png"
+      },
+      "supportsTablet": false,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "entitlements": {
+        "com.apple.security.application-groups": [
+          "group.app.bacon.conversationalai"
+        ]
+      },
+      "associatedDomains": [
+        "applinks:exai.conversationalai.app",
+        "webcredentials:exai.conversationalai.app",
+        "activitycontinuation:exai.conversationalai.app"
+      ]
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ],
+      "package": "app.bacon.conversationalai"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "@bacons/apple-colors",
+      [
+        "expo-router",
+        {}
+      ],
+      "expo-font",
+      [
+        "expo-quick-actions/icon/plugin",
+        [
+          "./assets/icons/scifi.png",
+          "./assets/icons/awe.png",
+          "./assets/icons/water.png",
+          "./assets/icons/coffee.png",
+          "./assets/icons/sunrise.png"
+        ]
+      ],
+      "expo-quick-actions",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/icons/bouquet.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#000"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app needs access to your photos to add them as recall images for reminders."
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": "The app needs access to your microphone to record audio for reminders and transcribe voice messages."
+        }
+      ],
+      "expo-localization"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactServerFunctions": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "61d52c53-c67a-4315-afce-cdc9a2fd2c5f"
+      },
+      "router": {}
+    }
+  }
+}
