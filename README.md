@@ -21,3 +21,15 @@ HF Space and Wand Db Inferences:
 ## Application Sketch- 
 
 <img width="4172" height="2558" alt="uiscaffold" src="https://github.com/user-attachments/assets/965d0dc7-08db-4c7f-a4c2-9d0ff6a6b6f5" />
+
+
+PRESENTATION:
+
+[Model Answers (1).pdf](https://github.com/user-attachments/files/22387685/Model.Answers.1.pdf)
+
+
+[Model Answers.pdf](https://github.com/user-attachments/files/22387684/Model.Answers.pdf)
+
+
+X-Archive PAPERS:
+COMING SOON!!
